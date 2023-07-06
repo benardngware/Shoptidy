@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "94269942532",
+    "project_id": "shoptidy-45577",
+    "storage_bucket": "shoptidy-45577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94269942532:android:830cf202b7f80958a67e51",
+        "android_client_info": {
+          "package_name": "com.example.shoptidy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94269942532-col8qn3a6q5922dgd7sk2bm80qvufv8d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfKEHBUZjQ3u2taO1mSG6pWIadzNDqu9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94269942532-col8qn3a6q5922dgd7sk2bm80qvufv8d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

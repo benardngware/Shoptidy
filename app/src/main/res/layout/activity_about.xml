@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/topbar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="About Us"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:paddingStart="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'Shoptidy: Shop Africa!' is a cutting-edge app that seamlessly connects customers with a vast network of Seller !s offering a wide array of African goods. Discover an exquisite collection of traditional artifacts, handmade crafts, fashion, and gourmet delights. With secure transactions and user-friendly navigation, Shoptidy brings the rich heritage and vibrant essence of Africa right to your fingertips."
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:paddingStart="10dp"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Reach Us!"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:paddingStart="10dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="30dp"
+            android:layout_marginBottom="15dp">
+        
+        <ImageView
+            android:id="@+id/toinsta"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/instalogo"
+            android:layout_marginEnd="80dp"/>
+        <ImageView
+            android:id="@+id/totwitt"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/twitt"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingStart="30dp">
+        <ImageView
+            android:id="@+id/toemail"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/email"
+            android:layout_marginEnd="80dp"/>
+
+        <ImageView
+            android:id="@+id/tocall"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/baseline_phone_24"/>
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
